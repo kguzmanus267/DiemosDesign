@@ -1,3 +1,12 @@
+/*Logo*/
+img{
+	position: fixed;
+	top: 0
+	right: 0;
+	height: 50%
+	width: 50%;
+	border: none;
+}
 /*Body*/
 body {
   background-color: #FFEEB6;
@@ -33,24 +42,35 @@ a {
 	color: #EB534B
 }
 nav ul{
+	text-align: center;
+	position: center;
 	list-style-type: none;
 	padding-top: 5rem
 
 }
 
 nav li{
+	text-align: center;
+	position: center;
 	display: inline-block;
 	padding-right: 2rem;
 	float: center
 
 }
 
+section{
+	text-align: center;
+}
+
 form{
+	align-items: center;
+	position: bottom;
 	float: center 
 	padding-top: 75rem;
 }
 
 input{
+	align-items: center;
 	border: 0;
   border-radius: 6px;
   color: #FFEEB6;
@@ -59,7 +79,7 @@ input{
   outline: 1;
   padding: 16px 0;
   text-indent: 20px;
-  width: 92%;  
+  width: auto;  
 }
 
 footer {
@@ -72,4 +92,24 @@ footer {
   margin-left: auto;
   max-width: auto
   padding: 40px 10px;
+}
+
+@media screen and(max-width: 480px) {
+	h1{
+		font-size: 30px;
+	}
+	img{ 
+		max-width: 100%;
+	 }
+	nav-ul{
+		float: none;
+		width: 100%; 
+
+	}
+
+	footer{
+		float: none;
+		width: 100;
+
+	}
 }
