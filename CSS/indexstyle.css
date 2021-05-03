@@ -66,6 +66,7 @@ form{
 	align-items: center;
 	position: bottom;
 	float: center 
+	align-content: center;
 	padding-top: 75rem;
 }
 
