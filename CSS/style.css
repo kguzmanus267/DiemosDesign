@@ -83,6 +83,7 @@ input{
 }
 
 footer {
+  align-content: center;
   background-color: #FFEEB6;
   color: #855C6B;
   font-family: 'Antonio', sans-serif;;
